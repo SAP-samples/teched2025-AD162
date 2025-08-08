@@ -1,12 +1,12 @@
-# Session ID - Session Title
+# AD162 - Joule for developers, ABAP AI capabilities
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2025 session called AD162 - Joule for developers, ABAP AI capabilities.  
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees on how to use ABAP capabilities in Joule for Developers, including predictive code completion, unit test generation for ABAP CDS and ABAP code, and code explanations, all aimed at enhancing development efficiency with ABAP Cloud.
 
 ## Requirements
 
