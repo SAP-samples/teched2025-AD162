@@ -10,7 +10,7 @@ This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are.
 
 ## Exercises
 
