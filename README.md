@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2025 session called AD1
 
 ## Overview
 
-This session introduces attendees on how to use ABAP capabilities in Joule for Developers, including predictive code completion, unit test generation for ABAP CDS and ABAP code, and code explanations, all aimed at enhancing development efficiency with ABAP Cloud.
+This session introduces attendees how to use in Joule for developers, ABAP AI capabilities including predictive code completion, unit test generation for CDS and ABAP, and code explanations, all aimed at enhancing development efficiency with ABAP Cloud.
 
 ## Requirements
 
