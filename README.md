@@ -1,4 +1,4 @@
-# AD162 - SAP Joule for developers, ABAP AI capabilities 💎
+# AD162 - SAP Joule for developers, ABAP AI capabilities💎
 
 ## Description
 
@@ -31,9 +31,19 @@ During this session, we will be working through the exercises from [Build SAP Fi
 
 Start the exercises [here](https://github.com/SAP-samples/abap-platform-rap120/blob/main/exercises/ex01/README.md).
 
-**IMPORTANT**
+<!-- **IMPORTANT**
 
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder.  -->
+## Further Information
+
+You can find more information about the generative AI in ABAP, ABAP Cloud, RAP here:
+
+- [Getting Started with SAP Joule for developers, ABAP AI capabilities](https://www.sap.com/documents/2025/02/b4f714de-f57e-0010-bca6-c68f7e60039b.html)
+- [Overview - Generative AI in ABAP](https://www.sap.com/documents/2025/02/b4f714de-f57e-0010-bca6-c68f7e60039b.html)
+- [SAP Help - Generative AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US) 
+- [ABAP Cloud Roadmap Information - GenAI](https://help.sap.com/docs/abap-cross-product/roadmap-info/genai?locale=en-US)
+- [ABAP Cloud development model](https://help.sap.com/docs/abap-cloud)
+- [Getting Started with ABAP RESTful Application Programming Model (RAP)](https://pages.community.sap.com/topics/abap/rap)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
