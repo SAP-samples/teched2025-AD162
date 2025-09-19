@@ -1,8 +1,9 @@
-# AD162 - Joule for developers, ABAP AI capabilities
+# AD162 - SAP Joule for developers, ABAP AI capabilities 💎
 
 ## Description
 
 This repository contains the material for the SAP TechEd 2025 session called AD162 - Joule for developers, ABAP AI capabilities.  
+This repository contains the material for the hands-on session or the SAP TechEd 2025 session called AD162 - SAP Joule for developers, ABAP AI capabilities 💎
 
 ## Overview
 
@@ -10,13 +11,14 @@ This session introduces attendees how to use in Joule for developers, ABAP AI ca
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are.
+A dedicated ABAP system for the hands-on workshop participants will be provided.
+Access to the system details for the workshop will be provided by the SAP instructors during the session.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+During this session, we will be working through the exercises from [Build SAP Fiori Apps with ABAP Cloud and SAP Joule for developers](https://github.com/SAP-samples/abap-platform-rap120?tab=readme-ov-file#exercises).
 
-- [Getting Started](exercises/ex0/)
+<!-- - [Getting Started](exercises/ex0/)
 - [Exercise 1 - First Exercise Description](exercises/ex1/)
     - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
@@ -25,9 +27,9 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
 
   
-**OR** Link to the Tutorial Navigator for example...
+**OR** Link to the Tutorial Navigator for example... -->
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+Start the exercises [here](https://github.com/SAP-samples/abap-platform-rap120/blob/main/exercises/ex01/README.md).
 
 **IMPORTANT**
 
