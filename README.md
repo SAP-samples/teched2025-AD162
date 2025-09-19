@@ -2,8 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called AD162 - Joule for developers, ABAP AI capabilities.  
-This repository contains the material for the hands-on session or the SAP TechEd 2025 session called AD162 - SAP Joule for developers, ABAP AI capabilities 💎
+This repository contains the material for the hands-on session or the SAP TechEd 2025 session called **AD162 - SAP Joule for developers, ABAP AI capabilities** 💎
 
 ## Overview
 
