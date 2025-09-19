@@ -6,7 +6,7 @@ This repository contains the material for the hands-on session or the SAP TechEd
 
 ## Overview
 
-This session introduces attendees how to use in Joule for developers, ABAP AI capabilities including predictive code completion, unit test generation for CDS and ABAP, and code explanations, all aimed at enhancing development efficiency with ABAP Cloud.
+This session introduces attendees to using SAP Joule for developers, highlighting ABAP AI features such as predictive code completion, unit test generation for CDS and ABAP, code explanations, and the ABAP AI SDK powered by ISLM. These tools are designed to improve development efficiency with ABAP Cloud.
 
 ## Requirements
 
