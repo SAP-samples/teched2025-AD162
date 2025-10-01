@@ -1,39 +1,18 @@
-[Home - Workshops about the ABAP RESTful Application Programming Model (RAP) ](https://github.com/SAP-samples/abap-platform-rap-workshops/blob/main/README.md)
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap120)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-rap120)
 
-
-<!-- [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap100)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-rap100) -->
-
-<!--
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
-
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
--->
-
-
-# RAP120 - Build SAP Fiori Apps with ABAP Cloud and SAP Joule for developers
-
-<!-- Please include descriptive title test -->
-
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+# AD162 - SAP Joule for developers, ABAP AI capabilities💎
 
 ## Description
-<!-- Please include SEO-friendly description -->
 
-This repository contains the material for the hands-on session **RAP120 - Build SAP Fiori Apps with ABAP Cloud and SAP Joule for developers**💎
+This repository contains the material for the hands-on session or the SAP TechEd 2025 session called **AD162 - SAP Joule for developers, ABAP AI capabilities** 💎
+
+## Overview
+
+This session introduces attendees to using SAP Joule for developers, highlighting ABAP AI features such as predictive code completion, unit test generation for CDS and ABAP, code explanations, and the ABAP AI SDK powered by ISLM. These tools are designed to improve development efficiency with ABAP Cloud.
+
+## Requirements
+
+A dedicated ABAP system for the hands-on workshop participants will be provided.
+Access to the system details for the workshop will be provided by the SAP instructors during the session.
 
 **Table of Content**
 - [Requirements for attending this workshop](#requirements-for-attending-this-workshop)
@@ -49,6 +28,8 @@ This repository contains the material for the hands-on session **RAP120 - Build 
 [^Top of page](#)
 
 > To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system* that is connected to the [SAP AI Core](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core).
+
+<!--
 > 
 > The appropriate flavor of the [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must be imported into the relevant system.  
 > 
@@ -57,6 +38,8 @@ This repository contains the material for the hands-on session **RAP120 - Build 
 >> #### ⚠ Exception regarding SAP-led events, such as "ABAP Developer Day" and "SAP CodeJam"   
 >> → A dedicated ABAP system for the hands-on workshop participants will be provided.   
 >> → Access to the system details for the workshop will be provided by the SAP instructors during the session.
+
+-->
 
 <details>
   <summary>🔵Click to expand!</summary>
