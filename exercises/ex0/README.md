@@ -84,9 +84,14 @@ Once you've found an available group ID, choose **Cancel**.
     ![Open ABAP Perspective](images/abap_perspective.png)
 
 2. Now create the _**ABAP Cloud Project**_ as shown below. 
-  - Give the ABAP Service instances URL and click on **Next**
+  - Give the ABAP Service instances URL 
+    `https://852deb11-dd28-4359-b303-42aba5efd60c.abap.us10.hana.ondemand.com`
+    and click on **Next**
   - Click on **Open Logon in Browser** and enter your user credentials
   - In ADT, click on **Finish**
+
+    
+
 
     ![Create ABAP Project Cloud 1/2](images/ABAP_Cloud_Project.gif)
 
