@@ -1,4 +1,4 @@
-# AD162 - SAP Joule for developers, ABAP AI capabilities
+# AD162 - SAP Joule for developers, ABAP AI capabilities💎
 
 ## Description
 
