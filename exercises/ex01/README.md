@@ -1,6 +1,6 @@
 [Home - RAP120](../../README.md)
 
-# Exercise 1: Generate a SAP Fiori using the ABAP Cloud Generator: transactional app from scratch 
+# Exercise 1: Generate a SAP Fiori Element App using the ABAP Cloud Generator: transactional app from scratch 
 
 ## Introduction
 
@@ -28,7 +28,7 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
 ## Exercise 1.1: Create package
 [^Top of page](#Introduction)
 
-> Create your exercise package ![package](images/adt_package.png)**`ZRAP120_AI_###`**.
+> Create your exercise package ![package](images/adt_package.png)**`ZRAP120_AI_###`** under ![package](images/adt_package.png)**`ZLOCAL`** package.
 >    
 > This ABAP package will contain all the artifacts you will be creating in the different exercises of this hands-on session.
 
@@ -450,7 +450,7 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
          EndDate;
       ```
 
-   4. In ![behaviordefinition](images/adt_bdef.png) **`ZR_TRAVEL###`**, add the field **`DiscountedFlightPrice` in *`field ( readonly )`* for **`ZR_BOOKING###`**
+   4. In ![behaviordefinition](images/adt_bdef.png) **`ZR_TRAVEL###`**, add the field **`DiscountedFlightPrice`** in *`field ( readonly )`* for **`ZR_BOOKING###`**
 
       ```ABAP
          field ( readonly )
