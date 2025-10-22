@@ -55,9 +55,9 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
 
 
               DATA(system_prompt) = | You support by giving sightseeing tips for a given city. | &&
-                                    | Write a short summary of the 10 top most sightseeing tips | &&
-                                    | using a brief listing without a caption | &&
-                                    | It should be less 1000 characters. |.
+                                    | Summarize the most important things to do in the city. | &&
+                                    | Write a list. The list must be less than 500 characters and contain no more than 1000 characters. |.
+
               " User specific promt, including the city selection from the UI
               DATA(user_prompt)   = |The city is { iv_city }.|.
 
@@ -120,10 +120,10 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
          METHOD get_sightseeing_tips.
             " We will call an LLM to generate the sightseeing tips for a given city using the ABAP AI SDK powered by ISLM
 
-              DATA(system_prompt) = | You support by giving sightseeing tips for a given city. | &&
-                                    | Write a short summary of the 10 top most sightseeing tips | &&
-                                    | using a brief listing without a caption | &&
-                                    | It should be less 1000 characters. |.
+                DATA(system_prompt) = | You support by giving sightseeing tips for a given city. | &&
+                                      | Summarize the most important things to do in the city. | &&
+                                      | Write a list. The list must be less than 500 characters and contain no more than 1000 characters. |.
+
               " User specific prompt, including the city selection from the UI
               DATA(user_prompt)   = |The city is { iv_city }.|.
 
