@@ -613,7 +613,7 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
       CREATE PUBLIC .
 
       PUBLIC SECTION.
-        METHODS: validate_customer IMPORTING iv_customer_id TYPE /dmo/customer_id RETURNING VALUE(rv_exists) TYPE abap_bool.
+        METHODS: validate_customer_id IMPORTING iv_customer_id TYPE /dmo/customer_id RETURNING VALUE(rv_exists) TYPE abap_bool.
         METHODS: get_booking_status IMPORTING iv_status TYPE /dmo/booking_status_text RETURNING VALUE(rv_status) TYPE /dmo/booking_status.
         METHODS: get_sightseeing_tips IMPORTING iv_city TYPE /dmo/city RETURNING VALUE(rv_sightseeing_tips) TYPE /dmo/description.
 
@@ -625,7 +625,7 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
 
      CLASS zcl_travel_helper_### IMPLEMENTATION.
 
-      METHOD validate_customer.
+      METHOD validate_customer_id.
          SELECT SINGLE
             FROM /dmo/customer
             FIELDS @abap_true AS line_exists

@@ -204,7 +204,7 @@ In this exercise, you will now define and implement a determination called **`ca
 
           LOOP AT lt_travel INTO DATA(ls_travel).
             IF ls_travel-CustomerID IS INITIAL OR
-              lo_travel_helper->validate_customer( ls_travel-CustomerID ) = abap_false.
+              lo_travel_helper->validate_customer_id( ls_travel-CustomerID ) = abap_false.
               APPEND VALUE #( %tky = ls_travel-%tky ) TO failed-Travel.
               APPEND VALUE #(
                   %tky        = ls_travel-%tky

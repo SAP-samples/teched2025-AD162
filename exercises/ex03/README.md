@@ -159,7 +159,7 @@ In this exercise, you will now analyze the ABAP helper class ![class](images/adt
 
        METHOD validate_customer_success.
          DATA(cut) = NEW zcl_travel_helper_###( ).
-         DATA(result) = cut->validate_customer( '000001' ).
+         DATA(result) = cut->validate_customer_id( '000001' ).
 
          cl_abap_unit_assert=>assert_equals( exp = abap_true act = result ).
        ENDMETHOD.

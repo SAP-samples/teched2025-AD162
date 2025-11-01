@@ -88,7 +88,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
          CREATE PUBLIC .
 
          PUBLIC SECTION.
-           METHODS: validate_customer IMPORTING iv_customer_id TYPE /dmo/customer_id RETURNING VALUE(rv_exists) TYPE abap_bool.
+           METHODS: validate_customer_id IMPORTING iv_customer_id TYPE /dmo/customer_id RETURNING VALUE(rv_exists) TYPE abap_bool.
            METHODS: get_booking_status IMPORTING iv_status TYPE /dmo/booking_status_text RETURNING VALUE(rv_status) TYPE /dmo/booking_status.
            METHODS: get_sightseeing_tips IMPORTING iv_city TYPE /dmo/city RETURNING VALUE(rv_sightseeing_tips) TYPE /dmo/description.
          PROTECTED SECTION.
@@ -98,7 +98,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
 
        CLASS zcl_travel_helper_### IMPLEMENTATION. 
 
-         METHOD validate_customer.
+         METHOD validate_customer_id.
           SELECT SINGLE
             FROM /dmo/customer
             FIELDS @abap_true AS line_exists
@@ -248,7 +248,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
 
           LOOP AT lt_travel INTO DATA(ls_travel).
             IF ls_travel-CustomerID IS INITIAL OR
-              lo_travel_helper->validate_customer( ls_travel-CustomerID ) = abap_false.
+              lo_travel_helper->validate_customer_id( ls_travel-CustomerID ) = abap_false.
               APPEND VALUE #( %tky = ls_travel-%tky ) TO failed-Travel.
               APPEND VALUE #(
                   %tky        = ls_travel-%tky
