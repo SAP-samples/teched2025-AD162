@@ -1,4 +1,4 @@
-# AD162 - SAP Joule for developers, ABAP AI capabilities💎
+# AD162 - SAP Joule for Developers, ABAP AI capabilities💎
 
 ## Description
 
@@ -16,7 +16,7 @@ This session introduces attendees how to build a SAP Fiori App with ABAP Cloud a
 > 
 > (*) SAP BTP ABAP environment and SAP S/4HANA Cloud Public Edition - as of release 2505 - are currently supported.
 >
->> #### ⚠ Exception regarding SAP-led events, such as TechEd 2025   
+>> #### ⚠ Exception regarding SAP-led events, such as SAP TechEd 2025   
 >> → A dedicated ABAP system for the hands-on workshop participants will be provided.   
 >> → Access to the system details for the workshop will be provided by the SAP instructors during the session.
 
@@ -56,4 +56,6 @@ Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
-Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+Copyright (c) 2025-2026 SAP SE or an SAP affiliate company and abap-platform-rap### contributors. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file; you may not use any file of this project except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the LICENSE for the specific language governing permissions and limitations under the License.
