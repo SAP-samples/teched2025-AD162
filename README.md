@@ -1,4 +1,5 @@
 # AD162 - SAP Joule for Developers, ABAP AI capabilities💎
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-AD162)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-AD162)
 
 ## Description
 
